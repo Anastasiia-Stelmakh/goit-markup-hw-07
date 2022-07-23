@@ -32,37 +32,39 @@
       <div class="container header-container">
         <!--Навігація  -->
 
-        <nav class="header-nav">
-          <a href="./index.html" lang="en" class="logo">
-            <span class="logo-inner">Web</span>Studio</a
+        <nav class="nav">
+          <a class="logo" href="./index.html" lang="en">
+            Web<span class="logo--black">Studio</span></a
           >
-          <ul class="header-list">
-            <li class="lists list-nav">
-              <a class="links nav" href="./index.html">Студия</a>
+          <ul class="nav__list">
+            <li class="nav__item lists">
+              <a class="nav__link links" href="./index.html">Студия</a>
             </li>
 
-            <li class="lists list-nav">
-              <a class="links nav current" href="./portfolio.html">Портфолио</a>
+            <li class="nav__item lists">
+              <a class="nav__link links current" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="lists list-nav">
-              <a class="links nav" href="">Контакты</a>
+            <li class="nav__item lists">
+              <a class="nav__link links" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <!-- Контакти -->
         <ul class="contact">
-          <li class="lists list-contact">
-            <a class="links contact-item" href="mailto:info@devstudio.com">
-              <svg class="header-contact-icon" width="16" height="12">
+          <li class="contact__list lists">
+            <a class="contact__item links" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
 
-          <li class="lists list-contact">
-            <a class="links contact-item" href="tel:+380961111111">
-              <svg class="header-contact-icon" width="10" height="16">
+          <li class="contact__list lists">
+            <a class="contact__item links" href="tel:+380961111111">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11</a
@@ -79,31 +81,38 @@
       <section class="sections">
         <div class="container">
           <h1 class="visually-hidden" hidden>Портфолио</h1>
-          <ul class="button-list">
-            <li class="button-item">
-              <button class="button current-button" type="button">Все</button>
+
+          <ul class="menu">
+            <li class="menu__item">
+              <button class="menu__button menu__current-button" type="button">
+                Все
+              </button>
             </li>
-            <li class="button-item">
-              <button class="button" type="button">Веб-сайты</button>
+
+            <li class="menu__item">
+              <button class="menu__button" type="button">Веб-сайты</button>
             </li>
-            <li class="button-item">
-              <button class="button" type="button">Приложения</button>
+
+            <li class="menu__item">
+              <button class="menu__button" type="button">Приложения</button>
             </li>
-            <li class="button-item">
-              <button class="button" type="button">Дизайн</button>
+
+            <li class="menu__item">
+              <button class="menu__button" type="button">Дизайн</button>
             </li>
-            <li class="button-item">
-              <button class="button" type="button">Маркетинг</button>
+
+            <li class="menu__item">
+              <button class="menu__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!-- Портфоліо -->
 
-          <ul class="portfolio-list">
+          <ul class="portfolio">
             <!-- 1 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -111,15 +120,15 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-1.jpg"
                     width="370"
                     height="294"
                     alt="Веб-сайт Технокряк"
                   />
 
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -128,16 +137,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Технокряк</h2>
-                  <p class="pic-text">Веб-сайт</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Технокряк</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <!-- 2 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -145,15 +154,15 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-2.jpg"
                     width="370"
                     height="294"
                     alt="Постер New Orlean vs Golden Star"
                   />
 
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -162,16 +171,18 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="pic-text">Дизайн</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
             <!-- 3 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -179,15 +190,15 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-3.jpg"
                     width="370"
                     height="294"
                     alt="Приложение Ресторан Seafood"
                   />
 
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -196,16 +207,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Ресторан Seafood</h2>
-                  <p class="pic-text">Приложение</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Ресторан Seafood</h2>
+                  <p class="portfolio__text">Приложение</p>
                 </div>
               </a>
             </li>
             <!-- 4 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -213,14 +224,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-4.jpg"
                     width="370"
                     height="294"
                     alt="Проект Prime Маркетинг"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -229,16 +240,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Проект Prime</h2>
-                  <p class="pic-text">Маркетинг</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Проект Prime</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
             <!-- 5 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -246,14 +257,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-5.jpg"
                     width="370"
                     height="294"
                     alt="Приложение Проект Boxes"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -262,16 +273,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Проект Boxes</h2>
-                  <p class="pic-text">Приложение</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Проект Boxes</h2>
+                  <p class="portfolio__text">Приложение</p>
                 </div>
               </a>
             </li>
             <!-- 6 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -279,14 +290,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-6.jpg"
                     width="370"
                     height="294"
                     alt="Веб-сайт Inspiration has no Borders"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -295,16 +306,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Inspiration has no Borders</h2>
-                  <p class="pic-text">Веб-сайт</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Inspiration has no Borders</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <!-- 7 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -312,14 +323,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-7.jpg"
                     width="370"
                     height="294"
                     alt="Дизайн Издание Limited Edition"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -328,16 +339,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Издание Limited Edition</h2>
-                  <p class="pic-text">Дизайн</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Издание Limited Edition</h2>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
             <!-- 8 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -345,14 +356,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-8.jpg"
                     width="370"
                     height="294"
                     alt="Маркетинг Проект LAB"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -361,16 +372,16 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Проект LAB</h2>
-                  <p class="pic-text">Маркетинг</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Проект LAB</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
             <!-- 9 -->
-            <li class="lists pic-list">
+            <li class="lists portfolio__item">
               <a
-                class="links portfolio-link"
+                class="links portfolio__link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -378,14 +389,14 @@
               >
                 <div class="overlay">
                   <img
-                    class="pic"
+                    class="portfolio__pic"
                     src="./images/portfolio/portfolio-9.jpg"
                     width="370"
                     height="294"
                     alt="Приложение Growing Business"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="portfolio-desc">
+                  <div class="overlay__box">
+                    <p class="overlay__desc">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -394,9 +405,9 @@
                   </div>
                 </div>
 
-                <div class="portfolio-text">
-                  <h2 class="pic-title">Growing Business</h2>
-                  <p class="pic-text">Приложение</p>
+                <div class="portfolio__wraper">
+                  <h2 class="portfolio__title">Growing Business</h2>
+                  <p class="portfolio__text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -410,8 +421,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div>
-          <a href="./index.html" lang="en" class="logo-footer">
-            <span class="logo-inner">Web</span>Studio</a
+          <a href="./index.html" lang="en" class="logo">
+            Web<span class="logo--white">Studio</span></a
           >
           <address>
             <ul class="lists">
