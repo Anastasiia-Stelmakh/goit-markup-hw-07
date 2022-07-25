@@ -98,7 +98,7 @@ ul {
   padding-right: 15px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -126,6 +126,9 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   word-spacing: 1px;
+}
+
+.nav__logo {
   margin-left: 0;
   margin-right: 93px;
 }
@@ -147,6 +150,9 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   display: inline-block;
+}
+
+.footer__logo {
   margin-bottom: 20px;
 }
 
@@ -175,11 +181,11 @@ ul {
   color: var(--accent-cl);
 }
 
-.current {
+.nav__link--current {
   color: var(--accent-cl);
 }
 
-.current::after {
+.nav__link--current::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -516,7 +522,7 @@ ul {
   padding-bottom: 60px;
 }
 
-.footer-address {
+.address {
   font-style: normal;
   line-height: 1.71;
   color: var(--white-txt-cl);
@@ -628,7 +634,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.menu__current-button {
+.menu__button--active {
   background-color: var(--accent-cl);
   color: var(--white-txt-cl);
 }
