@@ -124,7 +124,7 @@ img {
 
 /* Logo style */
 
-.logo--black {
+/* .logo--black {
   color: var(--black-txt-cl);
   text-decoration: none;
   font-family: Raleway;
@@ -164,7 +164,7 @@ img {
 }
 
 /* Navigation style */
-.nav__link {
+/* .nav__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -212,11 +212,11 @@ img {
 
 .nav__item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
 /* Contact style */
 
-.contact {
+/* .contact {
   display: flex;
   padding-left: 0;
   margin-left: auto;
@@ -249,9 +249,10 @@ img {
   fill: currentColor;
   margin-right: 10px;
 }
+*/
 
-/* Hero styles */
-.hero {
+Hero styles */
+/* .hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -284,7 +285,7 @@ img {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 /* .btn {
   font-family: inherit;
   font-weight: 700;
@@ -304,7 +305,7 @@ img {
 
 /* Benefits style */
 
-.benefits__list {
+/* .benefits__list {
   display: flex;
   align-items: center;
 }
@@ -327,11 +328,11 @@ img {
 .benefits__text {
   margin-top: 10px;
   line-height: 1.71;
-}
+} */
 
 /* benefits-icons-styles */
 
-.benefits__wraper {
+/* .benefits__wraper {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -339,17 +340,17 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* Секція чим ми займаємось */
 
-.title {
+/* .title {
   font-size: 36px;
   line-height: 1.71;
   color: var(--dark-grey-txt-cl);
   text-align: center;
   margin-bottom: 50px;
-}
+} */
 
 .doing__list {
   display: flex;
