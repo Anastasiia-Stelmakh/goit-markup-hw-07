@@ -82,7 +82,7 @@ img {
 
 
 /* Класс для скрытого заголовка */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -93,7 +93,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
-}
+} */
 
 /* .container {
   width: 1200px;
@@ -123,6 +123,7 @@ img {
 } */
 
 /* Logo style */
+
 .logo--black {
   color: var(--black-txt-cl);
   text-decoration: none;
@@ -147,6 +148,7 @@ img {
   line-height: 1.19;
   margin-right: 0;
 }
+
 .logo--white {
   color: var(--main-bg-cl);
   text-decoration: none;
